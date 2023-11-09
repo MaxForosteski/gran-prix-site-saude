@@ -1,0 +1,101 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+.frase-efeito{
+    position: absolute;
+    margin:3% 5% 8% 5%;
+    text-align: left;
+    background-image: linear-gradient(90deg,rgb(143, 209, 143),rgb(133, 199, 133));
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+}
+
+.sobre-inte{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+}
+.frase{
+    text-align: left;
+    font-family:serif;
+    margin-top: 10%;
+    color: white;
+    font-weight: bolder;
+}
+
+#idoso{
+    width: 550px;
+    height: 550px;
+    border-radius: 60px;
+}
+.navbar{
+    background-image:linear-gradient(to right,white,rgb(143, 209, 143));
+}
+
+#footer_inicial{
+    margin: 130vh -1% -1% -1%;
+    padding: 2% 2% 2% 2%;
+    background-color: rgb(65, 65, 65);
+    color: rgb(201, 201, 201);
+    font-family: monospace;
+    text-align: center;
+}
+
+#footer_participe{
+    margin: 30vh -1% -1% -1%;
+    padding: 2% 2% 2% 2%;
+    background-color: rgb(65, 65, 65);
+    color: rgb(201, 201, 201);
+    font-family: monospace;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color:rgb(175, 175, 0) !important;
+    text-decoration:underline;
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(206, 206, 206);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 10px;
+    box-shadow: 5px 3px 9px 2px black;
+    overflow: hidden
+}
+label{
+    margin-top: 20px;
+}
+input{
+    width: 500px;
+    border:solid 1px rgb(56, 56, 56);
+    border-radius: 10px;
+    
+}
+.formulario{
+    text-align: justify;
+}
+
+.titulo{
+    margin:4%;
+}
+
+#botao{
+    width: 200px;
+    background-color:rgb(0, 131, 0);
+    border:transparent;
+}
+
+.sobrenos{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+}
